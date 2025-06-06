@@ -12,7 +12,7 @@ const App = () => {
   return (
     <div>
         {/* Do not remove the main div */}
-        <p>Button clicked {count} {count === 1 ? "time" : "times"}</p>
+        <p>Button clicked {count} times</p>
         <button onClick={handleIncrement}>Click me</button>
         
     </div>
